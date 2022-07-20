@@ -24,7 +24,7 @@ void print_prompt()
 {
     printf("db > ");
 }
-
+// this is 
 void read_input(InputBuffer *input_buffer)
 {
     ssize_t bytes_read =
@@ -40,10 +40,6 @@ void close_input_buffer(InputBuffer *input_buffer)
     free(input_buffer);
 }
 
-
-// This is an infinite loop until the user types .exit then exits 
-// the loop. If user types something unidentifiable then prints 
-// Unreconized command " ". 
 int main(int argc, char *argv[])
 {
     InputBuffer *input_buffer = new_input_buffer();

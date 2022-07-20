@@ -41,9 +41,9 @@ void close_input_buffer(InputBuffer *input_buffer)
 }
 
 
-// This is an infinite loop until the user types .exit then exits 
+// this is an infinite loop until the user types .exit then exits 
 // the loop. If user types something unidentifiable then prints 
-// Unreconized command " ". 
+// Unreconized command " " 
 int main(int argc, char *argv[])
 {
     InputBuffer *input_buffer = new_input_buffer();
